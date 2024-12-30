@@ -38,7 +38,7 @@ public class MarcasWebService {
 		case 1:
 			return new ResponseEntity<>("Id repetido", HttpStatus.OK);
 		case 2:
-			return new ResponseEntity<>("Nobre de marca repetida", HttpStatus.OK);
+			return new ResponseEntity<>("Nombre de marca repetida", HttpStatus.OK);
 		case 3:
 			return new ResponseEntity<>("Id y Nombre repetidos", HttpStatus.OK);
 		default:
